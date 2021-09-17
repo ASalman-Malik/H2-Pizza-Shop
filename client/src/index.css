@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif !important;
+  overflow-x: hidden !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* for all h1 tags */
+h1{
+  font-size: 20px !important;
+}
+/* Navbar.jss Styles */
+/* to move login and cart to right */
+#navbarNav{
+  justify-content: flex-end;
+}
+.NAV{
+
+  background-color: #1F66A7 !important;
+
+}
+
+/* color fro nav */
+.nav-link{
+  color:white !important;
+  font-size: 18px;
+}
+.navbar-brand{
+  color:white !important;
+  font-weight: 600;
+  font-size: 30px;
+}
+/* from button add to cart */
+.btn{
+  color:#4FAC2A !important;
+  border: 1px solid #4FAC2A !important;
+}
+/* for select */ 
+select{
+  box-shadow: none !important;
+  border-color: black !important;
+}
+.flex-container{
+  display: flex;
+}
+
+/* for cartscreen.js + and - icons */
+.fa-plus{
+  color: #4FAC2A !important;
+  margin: 5px;
+}
+.fa-plus :hover{
+  
+}
+.fa-minus{
+  color: crimson !important;
+  margin: 5px;
+}
+.fa-trash{
+  color: crimson;
+}
+/* for registration.js form fields */
+input{
+  margin-top: 10px !important;
+  box-shadow: none !important;
+}
+
+/* for Adminscreen.js */
+.adminfunctions{
+  display: flex;
+  padding: 10px;
+  background-color: rgb(1, 1,77);
+  justify-content: space-around;
+}
+
+.adminfunctions li{
+  list-style: none !important;
+  text-decoration: none !important;
+  color: white !important;
+
+}
+.adminfunctions li a{
+  /* list-style-type: none; */
+  color: white !important;
+}
+td, th, tr{
+  text-align: left;
+}
+/* login and register page svg background */
+.login{
+  background-image: url('./images/bg_login.svg');
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 90vh;
+}
+.register{
+  background-image: url('./images/bg_register.svg');
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 90vh;
+}
